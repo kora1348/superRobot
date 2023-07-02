@@ -6,7 +6,7 @@ calculLongComplet();
 function calculShortPartiel() {
 
     let coursDepart = document.getElementById("departShort").value;
-    let coursFin = (coursDepart * 0.80) / 100; 
+    let coursFin = (coursDepart * 0.20) / 100; 
     let coursTotal = coursDepart - coursFin ;
 
     document.getElementById("coursResultatShortPartiel").innerHTML = coursTotal;
@@ -29,7 +29,7 @@ function calculShortComplet() {
 function calculLongPartiel() {
 
     let coursDepart = document.getElementById("departLong").value;
-    let coursFin = (coursDepart * 0.80) / 100; 
+    let coursFin = (coursDepart * 0.20) / 100; 
     let coursTotal = +coursDepart + +coursFin ;
 
     document.getElementById("coursResultatLongPartiel").innerHTML = coursTotal;
